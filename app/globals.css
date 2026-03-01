@@ -1,0 +1,626 @@
+/* === DESIGN TOKENS (CSS Variables) === */
+:root {
+  /* Neutral palette */
+  --bg: #F8FAFC;
+  --surface: #FFFFFF;
+  --surface-2: #F1F5F9;
+  --border: #E2E8F0;
+
+  --text: #0F172A;
+  --muted: #475569;
+
+  /* Primary (brand/CTA) */
+  --primary: #0B1F3B;
+  --primary-hover: #0A2A52;
+
+  /* Accent (secondary CTA) */
+  --accent: #16A34A;
+  --accent-hover: #15803D;
+
+  /* Links */
+  --link: #2563EB;
+  --link-hover: #1D4ED8;
+  --focus: #93C5FD;
+
+  /* Status colors */
+  --success: #16A34A;
+  --success-bg: #F0FDF4;
+
+  --warning: #F59E0B;
+  --warning-bg: #FFFBEB;
+
+  --error: #DC2626;
+  --error-bg: #FEF2F2;
+
+  --info: #0284C7;
+  --info-bg: #F0F9FF;
+
+  /* Transitions */
+  --transition: all 150ms ease;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.08);
+  --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.12);
+}
+
+/* === RESET & BASE STYLES === */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* === CONTAINER === */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* === TYPOGRAPHY === */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+h1, .h1 {
+  font-size: 2.0rem;
+}
+
+h2, .h2 {
+  font-size: 1.5rem;
+}
+
+h3, .h3 {
+  font-size: 1.25rem;
+}
+
+h4, .h4 {
+  font-size: 1.125rem;
+}
+
+p {
+  margin: 0 0 16px 0;
+}
+
+p.lead {
+  font-size: 1.125rem;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.small {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+/* === LINKS === */
+a {
+  color: var(--link);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+a:visited {
+  color: var(--link);
+}
+
+a:hover, a:active {
+  color: var(--link-hover);
+}
+
+a:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* === BUTTONS === */
+.btn, button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: var(--transition);
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:focus-visible, button:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.btn:disabled, button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Primary button (main CTAs) */
+.btn-primary, .btn {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-primary:hover, .btn:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn-primary:active, .btn:active {
+  transform: scale(0.98);
+}
+
+/* Accent button (secondary CTAs) */
+.btn-accent {
+  background-color: var(--accent);
+  color: white;
+}
+
+.btn-accent:hover {
+  background-color: var(--accent-hover);
+}
+
+.btn-accent:active {
+  transform: scale(0.98);
+}
+
+/* Secondary button (outline) */
+.btn-secondary {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--border);
+}
+
+.btn-secondary:hover {
+  background-color: var(--surface-2);
+  border-color: var(--primary);
+}
+
+/* === FORMS === */
+input, textarea, select {
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  color: var(--text);
+  background-color: var(--surface);
+  transition: var(--transition);
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: var(--link);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+input:focus-visible, textarea:focus-visible, select:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+input[type="file"] {
+  padding: 8px;
+}
+
+input[type="number"] {
+  width: 140px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+/* === HERO SECTION === */
+.hero-bg {
+  position: relative;
+  overflow: hidden;
+  background: 
+    radial-gradient(135% 120% at 15% 50%, rgba(11, 31, 59, 0.10) 0%, transparent 60%),
+    radial-gradient(150% 100% at 85% 80%, rgba(22, 163, 74, 0.08) 0%, transparent 70%);
+}
+
+/* === SHADOW UTILITIES === */
+.shadow-sm {
+  box-shadow: var(--shadow-sm);
+}
+
+.shadow-md {
+  box-shadow: var(--shadow-md);
+}
+
+/* === CARDS === */
+.card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  transition: var(--transition);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--border);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+/* === TABLE WRAPPER === */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.table-wrap table {
+  min-width: 100%;
+}
+
+/* === TABLES === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  margin: 0;
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th {
+  background-color: var(--surface-2);
+  color: var(--text);
+  font-weight: 600;
+  text-align: left;
+  padding: 12px;
+  border-bottom: 2px solid var(--border);
+}
+
+td {
+  padding: 12px;
+  border-bottom: 999px solid var(--border);
+}
+
+/* Zebra striping for readability */
+tbody tr:nth-child(even) {
+  background-color: rgba(241, 245, 249, 0.5);
+}
+
+/* Right-align numeric columns */
+.numeric {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* === STATUS BADGES === */
+.badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.badge-success {
+  background-color: var(--success-bg);
+  color: var(--success);
+  border: 1px solid var(--success);
+}
+
+.badge-warning {
+  background-color: var(--warning-bg);
+  color: var(--warning);
+  border: 1px solid var(--warning);
+}
+
+.badge-error {
+  background-color: var(--error-bg);
+  color: var(--error);
+  border: 1px solid var(--error);
+}
+
+.badge-info {
+  background-color: var(--info-bg);
+  color: var(--info);
+  border: 1px solid var(--info);
+}
+
+/* === ALERTS === */
+.alert {
+  padding: 16px;
+  border-radius: 8px;
+  border-left: 4px solid;
+  margin-bottom: 20px;
+}
+
+.alert-success {
+  background-color: var(--success-bg);
+  color: var(--success);
+  border-color: var(--success);
+}
+
+.alert-warning {
+  background-color: var(--warning-bg);
+  color: var(--warning);
+  border-color: var(--warning);
+}
+
+.alert-error {
+  background-color: var(--error-bg);
+  color: var(--error);
+  border-color: var(--error);
+}
+
+.alert-info {
+  background-color: var(--info-bg);
+  color: var(--info);
+  border-color: var(--info);
+}
+
+/* === UTILITY CLASSES === */
+.controls {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+.summary {
+  margin-top: 14px;
+  color: var(--muted);
+}
+
+.right {
+  text-align: right;
+}
+
+/* === ACCESSIBILITY: FOCUS VISIBILITY === */
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* Ensure visible focus for interactive elements */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* Skip to main content link (accessibility) */
+.skip-to-main {
+ 
+
+/* === ACCESSIBILITY: REDUCED MOTION === */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+} position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: var(--primary);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 0 0 4px 0;
+  z-index: 1000;
+}
+
+.skip-to-main:focus {
+  top: 0;
+}
+
+/* === NAVIGATION HOVER STYLES === */
+.nav-brand:hover {
+  color: var(--primary-hover) !important;
+}
+
+.nav-link:hover {
+  color: var(--primary) !important;
+  text-decoration: underline !important;
+}
+
+/* === MOBILE NAVIGATION === */
+@media (max-width: 768px) {
+  /* Hide desktop nav elements */
+  .desktop-nav,
+  .desktop-ctas {
+    display: none !important;
+  }
+
+  /* Show mobile menu button */
+  .mobile-menu-btn {
+    display: flex !important;
+  }
+
+  /* Adjust container padding on mobile */
+  .container {
+    padding: 16px 20px;
+  }
+
+  /* Mobile hero adjustments */
+  .hero-bg .container {
+    padding: 40px 20px;
+  }
+
+  /* Mobile brand text */
+  .nav-brand-text {
+    display: none !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Tighter spacing on very small screens */
+  .container {
+    padding: 12px 16px;
+  }
+
+  .hero-bg .container {
+    padding: 32px 16px;
+  }
+
+  /* Stack hero elements on small screens */
+  .hero-bg h1 {
+    font-size: 1.5rem !important;
+  }
+}
+
+/* Mobile menu button hover effects */
+.mobile-menu-btn:hover {
+  background-color: var(--surface-2) !important;
+}
+
+/* Mobile menu animations */
+@media (prefers-reduced-motion: reduce) {
+  .mobile-menu-overlay,
+  .mobile-menu-overlay > div,
+  .mobile-menu-btn span {
+    transition: none !important;
+  }
+}
+
+/* =====================================
+   HERO SECTION ENHANCEMENTS  
+   ===================================== */
+
+.hero-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-bg::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, 
+    transparent 0%, 
+    rgba(22, 163, 74, 0.03) 25%, 
+    transparent 50%, 
+    rgba(11, 31, 59, 0.05) 75%, 
+    transparent 100%
+  );
+  animation: drift 20s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes drift {
+  0%, 100% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+}
+
+/* =====================================
+   ANIMATION KEYFRAMES
+   ===================================== */
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 4px 16px rgba(22, 163, 74, 0.3);
+  }
+  100% {
+    box-shadow: 0 6px 24px rgba(22, 163, 74, 0.5), 0 0 0 1px rgba(22, 163, 74, 0.1);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Button Variants */
+.btn-small {
+  display: inline-flex;
+  padding: 6px 12px;
+  background: var(--accent);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: var(--transition);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-small:hover {
+  background: var(--accent-hover);
+  transform: translateY(-1px);
+}
+
+/* Ensure animations respect accessibility preferences */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

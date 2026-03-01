@@ -1,0 +1,27 @@
+{
+  "name": "deemed-disposal-calculator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "cross-env TEST_MODE=1 vitest run",
+    "test:watch": "cross-env TEST_MODE=1 vitest"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "next": "^16.1.6",
+    "papaparse": "^5.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "yahoo-finance2": "^3.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "25.3.3",
+    "@types/react": "19.2.14",
+    "cross-env": "^10.1.0",
+    "typescript": "5.9.3",
+    "vitest": "^4.0.18"
+  }
+}

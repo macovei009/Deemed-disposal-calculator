@@ -1,0 +1,38 @@
+Action,Time,ISIN,Ticker,Name,Notes,ID,No. of shares,Price / share,Currency (Price / share),Exchange rate,Result,Currency (Result),Total,Currency (Total),Withholding tax,Currency (Withholding tax),Currency conversion fee,Currency (Currency conversion fee),Merchant name,Merchant category
+Market sell,28/07/2016 07:02,DE000A1EWWW0,ADS,Adidas,,EOF36301130759,0.0686891,201.9,EUR,1,1.87,EUR,13.87,EUR,,,,,,
+Market sell,29/07/2016 07:02,IE00B3XXRP09,VUSA,Vanguard S&P 500 (Dist),,EOF36301148258,1.54187144,103.77,EUR,1,-1.25,EUR,160,EUR,,,,,,
+Market sell,30/07/2016 07:02,GB00B63H8491,RR,Rolls-Royce,,EOF36351404222,7.16033523,976.4,GBX,87.26099998,72.32,EUR,80,EUR,,,0.12,EUR,,
+Card debit,31/07/2016 07:02,,,,,3dd9406d-7ef3-494f-ab6d-d06bf8016c35,,,,,,,-0.5,EUR,,,,,GoCar Carsharing LTD,AUTOMOBILE_RENTAL
+Card debit,01/08/2016 07:02,,,,,b09ffe9a-e17b-49f3-be48-2113a2e6178a,,,,,,,-60.65,EUR,,,,,GoCar Carsharing LTD,AUTOMOBILE_RENTAL
+Market sell,02/08/2016 07:02,IE00B3XXRP09,VUSA,Vanguard S&P 500 (Dist),,EOF36351417732,0.95338983,103.84,EUR,1,-0.71,EUR,99,EUR,,,,,,
+Card debit,03/08/2016 07:02,,,,,3885e97f-afc2-45d7-aa30-0138f1218e62,,,,,,,-65,EUR,,,,,LANGFORD HALL MEDICAL,MEMBERSHIPS
+Market sell,04/08/2016 07:02,US8807701029,TER,Teradyne,,EOF36360444927,0.1521364,91.65,USD,1.1600084,-7.95,EUR,12,EUR,,,0.02,EUR,,
+Card debit,05/08/2016 07:02,,,,,109e47e2-4e88-4690-97ea-2b7457d1c0f1,,,,,,,-61.45,EUR,,,,,Spar O Reillys Texaco,AUTOMOBILE
+Card credit,06/08/2016 07:02,,,,,bbf86462-d3e1-4066-a77b-6ca311671b35,,,,,,,0.5,EUR,,,,,GoCar Carsharing LTD,AUTOMOBILE_RENTAL
+Withdrawal,07/08/2016 07:02,,,,Sent to card **** 9152,a5d263c3-c2bd-4d83-b9d4-78885295c296,,,,,,,-175.57,EUR,,,,,,
+Spending cashback,08/08/2016 07:02,,,,,417228ab-7bd2-4025-9df9-c3985b9810dd,,,,,,,0.93,EUR,,,,,,
+Stock split open,09/08/2016 07:02,US62955X4097,NAAS,NaaS Technology,,EOF36408637472,7.81278695,7.63235967,USD,1.1282876,,,52.85,EUR,,,,,,
+Stock split close,10/08/2016 07:02,US62955X4097,NAAS,NaaS Technology,,EOF36408637467,31.25114783,1.90808991,USD,1.1282876,0,EUR,52.85,EUR,,,,,,
+Lending interest,11/08/2016 07:02,,,,Share lending interest,109af865-7e9d-435d-acc9-f810bffd6295,,,,,,,0.01,EUR,,,,,,
+Market sell,12/08/2016 07:02,IE00B3XXRP09,VUSA,Vanguard S&P 500 (Dist),,EOF36752002182,3.07178374,104.174,EUR,1,-1.26,EUR,320,EUR,,,,,,
+Withdrawal,13/08/2016 07:02,,,,Sent to card **** 9152,dbeb6817-931e-45ec-9726-8d0f8dfc3a6d,,,,,,,-320.01,EUR,,,,,,
+Market sell,14/08/2016 07:02,IE00B3XXRP09,VUSA,Vanguard S&P 500 (Dist),,EOF37555294674,0.78199979,104.137,EUR,1,-0.34,EUR,81.44,EUR,,,,,,
+Card debit,15/08/2016 07:02,,,,,1fa2bab4-281a-4c1e-97f3-7c3e37a81308,,,,,,,-16.89,EUR,,,,,ALDI STORES IRELAND,RETAIL_STORES
+Spending cashback,16/08/2016 07:02,,,,,25d6f2ff-a186-4d3a-a0b6-a816d072baf0,,,,,,,0.09,EUR,,,,,,
+Card debit,17/08/2016 07:02,,,,,e5163602-43ea-4fc2-81b2-bc02c4d2c1bb,,,,,,,-6,EUR,,,,,TESCO STORES 3635,RETAIL_STORES
+Card debit,18/08/2016 07:02,,,,,27d8a3b4-b345-4035-b034-38ca4ad4bafc,,,,,,,-48,EUR,,,,,MC CARTHYS SPORTSWORLD,MISCELLANEOUS
+Card debit,19/08/2016 07:02,,,,,a92d1748-aa1f-43d6-9e0e-32170d5e87ec,,,,,,,-14,EUR,,,,,PENNEYS WICORK -WILTON,CLOTHING_STORES
+Spending cashback,20/08/2016 07:02,,,,,525a7c03-c4d9-4bfc-95d2-0b780ddf5025,,,,,,,0.03,EUR,,,,,,
+Spending cashback,21/08/2016 07:02,,,,,f31180e2-fc5e-4140-8d4b-901350c97a39,,,,,,,0.31,EUR,,,,,,
+Lending interest,22/08/2016 07:02,,,,Share lending interest,663bdccd-356a-4b68-a7f6-89aa2cb96345,,,,,,,0.01,EUR,,,,,,
+Lending interest,23/08/2016 07:02,,,,Share lending interest,232af63f-2ba9-444c-850a-3fdb2d165b32,,,,,,,0.01,EUR,,,,,,
+Dividend (Dividend),24/08/2016 07:02,GB00B63H8491,RR,Rolls-Royce,,,2.11210559,4.5,GBX,0.011573,,,0.11,EUR,0,GBX,,,,
+Lending interest,25/08/2016 07:02,,,,Share lending interest,bcd8aba9-3f57-428d-8c28-3302ea39a477,,,,,,,0.01,EUR,,,,,,
+Lending interest,26/08/2016 07:02,,,,Share lending interest,dac963de-c876-4c9a-830a-7cfa05c75fb9,,,,,,,0.01,EUR,,,,,,
+Lending interest,27/08/2016 07:02,,,,Share lending interest,36ebd2e9-54ff-4155-9a1f-87cc2a4dd4ed,,,,,,,0.01,EUR,,,,,,
+Lending interest,28/08/2016 07:02,,,,Share lending interest,e2d0dcbe-cac7-4da5-8470-53a33742a9f4,,,,,,,0.01,EUR,,,,,,
+Lending interest,29/08/2016 07:02,,,,Share lending interest,f1b176c1-8154-43b5-a58c-b6b2ba222c9e,,,,,,,0.01,EUR,,,,,,
+Lending interest,30/08/2016 07:02,,,,Share lending interest,3374ea3f-b494-4b85-bbb0-4fda17456701,,,,,,,0.01,EUR,,,,,,
+Market sell,31/08/2016 07:02,KYG9687V2040,WIMI,WiMi Hologram Cloud,,EOF46209491569,1.775601,2.05,USD,1.18181235,-16.28,EUR,3.08,EUR,,,,,,
+Market sell,01/09/2016 07:02,US62955X4097,NAAS,NaaS Technology,,EOF46209493962,7.81278695,2.35,USD,1.18147035,-37.31,EUR,15.52,EUR,,,0.02,EUR,,
+Deposit,02/09/2016 07:02,,,,Bank Transfer,019c4118-f45c-7f0a-8634-02b5de3ae5d5,,,,,,,1,EUR,,,,,,

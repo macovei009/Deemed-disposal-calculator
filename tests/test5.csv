@@ -1,0 +1,10 @@
+Action,Time,ISIN,Ticker,Name,Notes,ID,No. of shares,Price / share,Currency (Price / share),Exchange rate,Total,Currency (Total),Withholding tax,Currency (Withholding tax),Stamp duty reserve tax,Currency (Stamp duty reserve tax),Currency conversion fee,Currency (Currency conversion fee)
+Deposit,2022-07-21 06:16:56,,,,"Transaction ID: CVGLF9MXBQR3KH52",ff3fa5f9-7d70-40bf-9a76-89b87a381b07,,,,,50.00,"EUR",,,,,,
+Deposit,2022-07-21 06:17:35,,,,"Transaction ID: WNGJMQLDM5H89VB2",69a8e9ff-1640-4d05-9630-65eb5c2d4949,,,,,1.00,"EUR",,,,,,
+Deposit,2022-07-21 07:00:31,,,,"Free Shares Promotion",ee4c579d-08f4-44f1-987d-76caf457e6cc,,,,,13.20,"EUR",,,,,,
+Market buy,2022-07-21 07:00:31,GB00B63H8491,RR,"Rolls-Royce",,EOF1983698102,12.0337300000,92.7600000000,GBX,85.14483560,13.20,"EUR",,,0.07,"EUR",0.02,"EUR"
+Withdrawal,2022-07-21 12:46:40,,,,"Sent to card *3471",fc31be6c-d1b4-4b4d-b251-7d1df4648556,,,,,-30.00,"EUR",,,,,,
+Deposit,2022-07-22 07:00:19,,,,"Free Shares Promotion",4ac53f64-aa85-466f-9da8-f5908e5d42b6,,,,,12.01,"EUR",,,,,,
+Market buy,2022-07-22 07:00:19,DE000A1EWWW0,ADS,"Adidas",,EOF1985713911,0.0686891000,174.7400000000,EUR,1.00000000,12.00,"EUR",,,,,,
+Market buy,2023-03-24 16:01:19,US62955X4097,NAAS,"NaaS Technology",,EOF2329699893,3.8588600000,5.5700000000,USD,1.07630697,20.00,"EUR",,,,,0.03,"EUR"
+Dividend (Ordinary),2023-05-18 10:56:41,DE000A1EWWW0,ADS,"Adidas",,,0.0686891000,0.515375,EUR,1.00000000,0.04,"EUR",0.01,EUR,,,,

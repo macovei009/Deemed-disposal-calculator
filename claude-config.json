@@ -1,0 +1,8 @@
+{
+  "service": "anthropic/claude",
+  "model": "claude-haiku-4.5",
+  "enabled_for": "all_clients",
+  "enabled": true,
+  "notes": "This file indicates that Claude Haiku 4.5 should be enabled for all clients. Actual activation must be performed in the vendor console or deployment environment that consumes this config.",
+  "updated_at": "2026-02-24T00:00:00Z"
+}

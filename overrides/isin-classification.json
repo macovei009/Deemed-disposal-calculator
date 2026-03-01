@@ -1,0 +1,5 @@
+{
+  "IE00BK5BQT80": { "isEtf": true, "reason": "Vanguard FTSE All-World UCITS ETF (VWCE)" },
+  "IE00B4X9L533": { "isEtf": true, "reason": "HSBC MSCI WORLD UCITS ETF" },
+  "DE000A1EWWW0": { "isEtf": false, "reason": "Adidas AG - not an ETF" }
+}

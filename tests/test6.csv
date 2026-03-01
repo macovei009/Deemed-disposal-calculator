@@ -1,0 +1,5 @@
+Action,Time,ISIN,Ticker,Name,Notes,ID,No. of shares,Price / share,Currency (Price / share),Exchange rate,Result,Currency (Result),Total,Currency (Total),Withholding tax,Currency (Withholding tax),Currency conversion fee,Currency (Currency conversion fee),French transaction tax,Currency (French transaction tax)
+Deposit,2016-05-10 09:00:00,,,,"Transaction ID: DUMMYDEP2016A",d3b7a1d0-1111-4f5b-8b21-aaa111111111,,,,,,,200.00,"EUR",,,,,,
+Market buy,2016-05-10 09:05:12,IE00B3XXRP09,VUSA,"Vanguard S&amp;P 500 (Dist)",,EOF16051009051201,2.0000000000,50.0000000000,EUR,1.00000000,,,100.00,"EUR",,,,,,
+Market buy,2016-11-15 12:40:05,IE00B3XXRP09,VUSA,"Vanguard S&amp;P 500 (Dist)",,EOF16111512400502,1.0000000000,55.0000000000,EUR,1.00000000,,,55.00,"EUR",,,,,,
+Lending interest,2016-12-31 03:30:00,,,,"Share lending interest",d3b7a1d0-2222-4f5b-8b21-aaa222222222,,,,,,,0.02,"EUR",,,,,,
