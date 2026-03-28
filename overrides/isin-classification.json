@@ -1,5 +1,20 @@
 {
+  "IE00B1XNHC34": { "isEtf": true, "reason": "iShares Global Clean Energy UCITS ETF" },
+  "IE00B3XXRP09": { "isEtf": true, "reason": "Vanguard S&P 500 UCITS ETF" },
+  "IE00B3YCGJ38": { "isEtf": true, "reason": "Invesco S&P 500 UCITS ETF" },
+  "IE00B4L5Y983": { "isEtf": true, "reason": "iShares Core MSCI World UCITS ETF" },
   "IE00BK5BQT80": { "isEtf": true, "reason": "Vanguard FTSE All-World UCITS ETF (VWCE)" },
+  "IE00B5BMR087": { "isEtf": true, "reason": "iShares Core S&P 500 UCITS ETF (CSPX)" },
+  "IE00B6R52259": { "isEtf": true, "reason": "iShares MSCI ACWI UCITS ETF" },
   "IE00B4X9L533": { "isEtf": true, "reason": "HSBC MSCI WORLD UCITS ETF" },
-  "DE000A1EWWW0": { "isEtf": false, "reason": "Adidas AG - not an ETF" }
+  "IE00BF4RFH31": { "isEtf": true, "reason": "iShares MSCI World Small Cap UCITS ETF" },
+  "IE00BKM4GZ66": { "isEtf": true, "reason": "iShares Core MSCI EM IMI UCITS ETF" },
+  "IE00BKWQ0D84": { "isEtf": true, "reason": "SPDR MSCI Europe Consumer Staples UCITS ETF" },
+  "DE000A1EWWW0": { "isEtf": false, "reason": "Adidas AG - not an ETF" },
+  "FR0000121014": { "isEtf": false, "reason": "LVMH Moet Hennessy Louis Vuitton - equity" },
+  "GB00B63H8491": { "isEtf": false, "reason": "Rolls-Royce Holdings plc - equity" },
+  "KYG9687V2040": { "isEtf": false, "reason": "Non-ETF equity security" },
+  "US62955X4097": { "isEtf": false, "reason": "NaaS Technology Inc. - equity" },
+  "US63911H3066": { "isEtf": false, "reason": "Non-ETF security" },
+  "US8807701029": { "isEtf": false, "reason": "Tesla, Inc. - equity" }
 }

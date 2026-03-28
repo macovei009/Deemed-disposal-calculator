@@ -325,6 +325,45 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* ── Support / Buy Me a Coffee ── */}
+        <div style={{
+          textAlign: 'center',
+          padding: '28px 20px',
+          marginBottom: 50,
+          background: 'var(--surface)',
+          borderRadius: 12,
+          border: '1px solid var(--border)',
+          boxShadow: 'var(--shadow-sm)',
+        }}>
+          <p style={{ margin: '0 0 6px', fontSize: '1.05rem', fontWeight: 600, color: 'var(--text)' }}>
+            ☕ Enjoying ad-free tax tools?
+          </p>
+          <p className="muted" style={{ margin: '0 0 14px', fontSize: '0.9rem', maxWidth: 500, marginLeft: 'auto', marginRight: 'auto' }}>
+            I prefer not to run ads. If this site helps you, a small contribution keeps it running — covering hosting, the domain, and future updates.
+          </p>
+          <a
+            href="https://buymeacoffee.com/deemeddisposalcalculator"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 6,
+              fontSize: '0.95rem',
+              fontWeight: 700,
+              background: '#FFDD00',
+              color: '#0B0B0B',
+              padding: '10px 22px',
+              borderRadius: 10,
+              textDecoration: 'none',
+              boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+              transition: 'var(--transition)',
+            }}
+          >
+            ☕ Buy Me a Coffee
+          </a>
+        </div>
+
         {/* FAQ PREVIEW SECTION */}
         <section style={{ marginBottom: 50 }}>
           <h2 style={{ marginBottom: 24 }}>Quick Answers</h2>

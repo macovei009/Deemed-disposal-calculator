@@ -75,6 +75,33 @@ export default function Footer() {
               </Link>
             </nav>
           </div>
+
+          <div>
+            <h4 style={{ marginTop: 0, marginBottom: 12 }}>Support</h4>
+            <p style={{ fontSize: '0.85rem', color: 'var(--muted)', margin: '0 0 10px', lineHeight: 1.55 }}>
+              This site is ad-free. If the calculator saved you time, consider buying me a coffee to help keep it running.
+            </p>
+            <a
+              href="https://buymeacoffee.com/deemeddisposalcalculator"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: 6,
+                fontSize: '0.9rem',
+                fontWeight: 600,
+                background: '#FFDD00',
+                color: '#0B0B0B',
+                padding: '8px 16px',
+                borderRadius: 8,
+                textDecoration: 'none',
+                transition: 'var(--transition)',
+              }}
+            >
+              ☕ Buy Me a Coffee
+            </a>
+          </div>
         </div>
 
         <div style={{
@@ -88,7 +115,7 @@ export default function Footer() {
             color: 'var(--muted)',
             marginBottom: 12
           }}>
-            © 2024 Deemed Disposal Calculator. Built with clarity and care.
+            © 2025 Deemed Disposal Calculator. Built with clarity and care.
           </p>
           <p style={{
             margin: 0,

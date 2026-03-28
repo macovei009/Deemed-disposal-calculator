@@ -195,7 +195,7 @@ export default function Nav() {
               whiteSpace: 'nowrap'
             }}
           >
-            Calculator (Soon)
+            Calculator
           </Link>
         </div>
 
@@ -338,7 +338,7 @@ export default function Nav() {
                   padding: '12px 20px'
                 }}
               >
-                📊 Calculator (Coming Soon)
+                📊 Calculator
               </Link>
             </div>
 

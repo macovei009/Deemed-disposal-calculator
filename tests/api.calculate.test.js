@@ -23,6 +23,7 @@ describe('/api/calculate (TEST_MODE=1)', () => {
       {
         'Action': 'Market buy',
         'Time': '2018-02-13 09:30:00',
+        'ISIN': 'IE00B5BMR087',
         'Ticker': 'CSPX.L',
         'No. of shares': '10',
         'Price / share': '28.12',
@@ -33,6 +34,7 @@ describe('/api/calculate (TEST_MODE=1)', () => {
       {
         'Action': 'Market buy',
         'Time': '2019-03-20 10:15:00',
+        'ISIN': 'IE00BKM4GZ66',
         'Ticker': 'EIMI.L',
         'No. of shares': '3',
         'Price / share': '23.10',
@@ -43,6 +45,7 @@ describe('/api/calculate (TEST_MODE=1)', () => {
       {
         'Action': 'Market buy',
         'Time': '2023-11-02 14:00:00',
+        'ISIN': 'IE00B3XXRP09',
         'Ticker': 'VEUR.L',
         'No. of shares': '2',
         'Price / share': '42.80',
