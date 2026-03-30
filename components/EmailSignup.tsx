@@ -8,8 +8,8 @@ interface EmailSignupProps {
 
 export default function EmailSignup({ 
   variant = 'default',
-  title = "Get Launch Updates",
-  description = "Be first to know when our full calculator launches with advanced features like multi-year calculations, loss offsetting, and detailed tax reports."
+  title = "Help Improve the Deemed Disposal Calculator",
+  description = "Submit your broker CSV files to help us support more brokers, or report a bug — your feedback makes the calculator better for everyone."
 }: EmailSignupProps) {
   
   if (variant === 'compact') {
@@ -25,16 +25,16 @@ export default function EmailSignup({
           🚀 {title}
         </div>
         <div style={{ fontSize: '0.9rem', color: 'var(--muted)', marginBottom: '12px' }}>
-          Get notified when we launch advanced features
+          Share broker CSVs or report a bug
         </div>
         <Link 
-          href="https://docs.google.com/forms/d/e/1FAIpQLSei5v9GdxABf0AetvSvMUYw1zhmTf6oVyxuHkBEf9_JCv8c7Q/viewform"
+          href="https://form.jotform.com/260880903014048"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-accent"
           style={{ fontSize: '0.9rem', padding: '8px 16px' }}
         >
-          Join Waitlist →
+          Help Improve the Calculator →
         </Link>
       </div>
     )
@@ -72,13 +72,13 @@ export default function EmailSignup({
           {description}
         </p>
         <Link 
-          href="https://docs.google.com/forms/d/e/1FAIpQLSei5v9GdxABf0AetvSvMUYw1zhmTf6oVyxuHkBEf9_JCv8c7Q/viewform"
+          href="https://form.jotform.com/260880903014048"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-accent"
           style={{ fontSize: '1rem', padding: '12px 24px' }}
         >
-          Join Launch List →
+          Help Improve the Calculator →
         </Link>
       </div>
     )
@@ -119,17 +119,17 @@ export default function EmailSignup({
       </p>
       <div style={{ marginBottom: '16px' }}>
         <Link 
-          href="https://docs.google.com/forms/d/e/1FAIpQLSei5v9GdxABf0AetvSvMUYw1zhmTf6oVyxuHkBEf9_JCv8c7Q/viewform"
+          href="https://form.jotform.com/260880903014048"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-accent"
           style={{ fontSize: '1.1rem', padding: '12px 24px' }}
         >
-          Get Launch Updates →
+          Help Improve the Calculator →
         </Link>
       </div>
       <div style={{ fontSize: '0.85rem', color: 'var(--muted)' }}>
-        ✓ Free updates • ✓ No spam • ✓ Unsubscribe anytime
+        ✓ Submit broker CSVs • ✓ Report bugs • ✓ Help us improve
       </div>
     </div>
   )

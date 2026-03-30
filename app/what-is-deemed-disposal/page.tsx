@@ -240,8 +240,8 @@ export default function WhatIsDeemedDisposal() {
 
         {/* EMAIL SIGNUP CTA */}
         <EmailSignup 
-          title="Get Deemed Disposal Alerts"
-          description="Never miss a deemed disposal deadline again. Get automated notifications 6 months before your 8-year dates, plus tax calculation reminders."
+          title="Help Improve the Calculator"
+          description="Submit your broker CSV files to help us support more brokers, or report a bug — your feedback makes the calculator better for everyone."
         />
 
         {/* FAQ SECTION */}

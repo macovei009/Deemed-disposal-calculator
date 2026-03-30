@@ -335,8 +335,8 @@ export default function Glossary() {
 
         {/* EMAIL SIGNUP CTA */}
         <EmailSignup 
-          title="Master Irish ETF Tax"
-          description="Get advanced guides, tax term updates, and early access to our comprehensive ETF tax course when it launches."
+          title="Help Improve the Calculator"
+          description="Submit your broker CSV files to help us support more brokers, or report a bug — your feedback makes the calculator better for everyone."
         />
 
         <Callout variant="info" icon="⚖️" title="Glossary Disclaimer">

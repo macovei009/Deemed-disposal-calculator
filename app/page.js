@@ -177,8 +177,8 @@ export default function HomePage() {
         {/* EMAIL SIGNUP HERO */}
         <EmailSignup 
           variant="hero"
-          title="Get Early Access to Advanced Features"
-          description="Join 500+ investors waiting for Deemed Disposal Calculator."
+          title="Help Improve the Deemed Disposal Calculator"
+          description="Submit your broker CSV files to help us support more brokers, or report a bug."
         />
 
         {/* HOW IT WORKS SECTION */}

@@ -441,8 +441,8 @@ export default function FAQ() {
 
         {/* EMAIL SIGNUP CTA */}
         <EmailSignup 
-          title="Get Calculator Updates"
-          description="Be first to try new features: automated tax reports, multi-year tracking, loss calculations, and integration with Irish brokers."
+          title="Help Improve the Calculator"
+          description="Submit your broker CSV files to help us support more brokers, or report a bug — your feedback makes the calculator better for everyone."
         />
 
         <Callout variant="info" icon="⚖️" title="Tax Disclaimer">

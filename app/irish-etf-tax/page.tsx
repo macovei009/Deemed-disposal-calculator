@@ -445,8 +445,8 @@ export default function IrishETFTax() {
 
         {/* EMAIL SIGNUP CTA */}
         <EmailSignup 
-          title="Get Advanced Tax Tools"
-          description="Stay ahead of Irish tax changes. Get early access to automated exit tax calculations, Revenue compliance reports, and multi-currency FX tracking."
+          title="Help Improve the Calculator"
+          description="Submit your broker CSV exports to help us support more brokers, or report a bug — your feedback helps every Irish ETF investor."
         />
 
         <Callout variant="info" icon="⚖️" title="Tax Disclaimer">
